@@ -1,3 +1,8 @@
+*.js
+*.js.map
+*.d.ts
+!/example/*.js
+
 # Logs
 logs
 *.log

@@ -1,0 +1,34 @@
+{
+  "name": "dalamb",
+  "version": "0.0.1",
+  "description": "Lambda handler wrapper inspired by Apex.js.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y13i/dalamb.git"
+  },
+  "keywords": [
+    "lambda",
+    "aws"
+  ],
+  "author": {
+    "name": "Yoriki Yamaguchi",
+    "email": "email@y13i.com",
+    "url": "https://y13i.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/y13i/dalamb/issues"
+  },
+  "homepage": "https://github.com/y13i/dalamb#readme",
+  "devDependencies": {
+    "@types/aws-lambda": "^0.0.19",
+    "@types/node": "^8.0.47",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1"
+  }
+}
