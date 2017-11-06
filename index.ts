@@ -32,5 +32,3 @@ function handleError(error: any, callback: Callback) {
   console.error(error);
   callback(error);
 }
-
-module.exports = dalamb;
