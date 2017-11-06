@@ -26,9 +26,11 @@
   },
   "homepage": "https://github.com/y13i/dalamb#readme",
   "devDependencies": {
-    "@types/aws-lambda": "^0.0.19",
     "@types/node": "^8.0.47",
     "tslint": "^5.8.0",
     "typescript": "^2.6.1"
+  },
+  "dependencies": {
+    "@types/aws-lambda": "^0.0.19"
   }
 }
