@@ -1,6 +1,6 @@
 {
   "name": "dalamb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lambda handler wrapper inspired by Apex.js.",
   "main": "index.js",
   "scripts": {
